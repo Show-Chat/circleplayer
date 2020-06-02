@@ -32,9 +32,9 @@
 
 			var myCirclePlayer = new CirclePlayer("#jquery_jplayer_1",
 			{
-				m4a: "http://live.radioclick.ro:8008/m4a",
-				oga: "http://live.radioclick.ro:8008/;stream.nsv",
-				mp3: "http://live.radioclick.ro:8008/;stream.nsv"
+				m4a: "http://live.radioclick.ro:8008/;stream/1",
+				oga: "http://live.radioclick.ro:8008/;stream/1",
+				mp3: "http://live.radioclick.ro:8008/;stream/1"
 			}, {
 				supplied: "mp3",
 				cssSelectorAncestor: "#cp_container_1"
@@ -44,8 +44,8 @@
 
 			var myOtherOne = new CirclePlayer("#jquery_jplayer_2",
 			{
-				m4a:"http://live.radioclick.ro:8008/",
-				oga:"http://live.radioclick.ro:8008/oga"
+				m4a:"http://live.radioclick.ro:8008/;stream/1",
+				oga:"http://live.radioclick.ro:8008/;stream/1"
 			}, {
 				cssSelectorAncestor: "#cp_container_2"
 			});
